@@ -1,0 +1,3 @@
+# Kalman-Filter-Based-Pair-Trading-Strategy
+
+Pairs trading is a statistical arbitrage technique to identify and exploit the out-of-equilibrium state of two long-term related financial assets. The first issue is to identify two statistically employable assets (pairs) through cointegration, stationarity, and correlation tests. Then, the spread is modeled using a linear state space model such as the Kalman filter (KF) in different market regimes. The bull and bear market regimes are identified using a probabilistic graphical model such as the Hidden Markov Model (HMM). Whenever a significant deviation from the mean is observed, the pair is traded using the hedge ratio calculated through the Kalman Filter.
